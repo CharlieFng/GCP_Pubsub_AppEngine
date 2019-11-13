@@ -54,6 +54,12 @@
       <version>1.4</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.9.8</version>
+    </dependency>
+
     <!-- [START pubsub_java_dependencies] -->
     <dependency>
       <groupId>com.google.cloud</groupId>
@@ -75,6 +81,13 @@
       <version>1.0</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.datatype</groupId>
+      <artifactId>jackson-datatype-jsr310</artifactId>
+      <version>2.6.0</version>
+    </dependency>
+
   </dependencies>
 
   <build>
